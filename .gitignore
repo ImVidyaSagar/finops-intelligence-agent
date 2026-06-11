@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data (keep structure, not files)
+data/*
+!data/.gitkeep
+
+# Env
+.env
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Mac
+.DS_Store
